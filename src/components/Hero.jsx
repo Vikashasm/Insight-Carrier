@@ -48,7 +48,7 @@ const Hero = () => {
           insurance leads and carrier safety reports, delivered daily.
         </p>
 
-        <div className="w-full sm:w-8/12 mx-auto mt-6 lg:mt-20 relative">
+        <div className="w-full sm:w-8/12 mx-auto mt-6 lg:mt-20 relative ">
           <span
             onClick={() => sliderArrow.current.slickPrev()}
             className="absolute top-1/2 -translate-y-1/2 -left-10 hidden sm:block"
@@ -61,7 +61,7 @@ const Hero = () => {
           >
             <SliderArrowIcon />
           </span>
-          <Slider ref={sliderArrow} {...settings}>
+          <Slider ref={sliderArrow} {...settings} >
             <div>
               <img className="w-full px-2" src={img1} alt="slider-info" />
             </div>

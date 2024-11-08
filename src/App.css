@@ -24,3 +24,7 @@
   font-family: 'salesforce-bold';
 }
 
+.slick-list {
+  overflow: hidden !important;
+  border-radius: 8px !important;
+}

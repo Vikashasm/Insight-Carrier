@@ -45,7 +45,7 @@ const Header = () => {
               ))}
               <div className="flex flex-col items-center gap-1.5 sm:gap-2.5 min-[400px]:hidden">
                 <CommonBtn
-                  path="/register"
+                  path="/sign-in"
                   btnName="Sign in"
                   btnStyling="font-bold text-[15px] text-[#1D1D1D] flex items-center"
                 />
