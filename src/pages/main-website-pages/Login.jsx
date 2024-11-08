@@ -63,6 +63,7 @@ const Login = () => {
                 <div className="flex gap-2.5 py-3.5 px-5 border border-[#D3D3D3] rounded items-center mt-2.5">
                   <EmailIcon />
                   <input
+                  required
                     type="email"
                     name="email"
                     placeholder="Email or user name"
@@ -83,6 +84,7 @@ const Login = () => {
                 <div className="flex gap-2.5 py-3.5 px-5 border border-[#D3D3D3] rounded items-center mt-2.5">
                   <LockIcon />
                   <input
+                  required
                     type="password"
                     name="password"
                     placeholder="Your Password"
