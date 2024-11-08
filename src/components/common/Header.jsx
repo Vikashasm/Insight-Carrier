@@ -17,7 +17,7 @@ const Header = () => {
     <>
       <div className={`duration-300 bg-[#FBFBFB] shadow-custom_boxShadow`}>
         <div
-          className={`sm:py-7 p-2 sm:px-4 max-w-[1280px] mx-auto flex justify-between w-full items-center`}
+          className={`sm:py-7 py-3 px-5 max-w-[1280px] mx-auto flex justify-between w-full items-center`}
         >
           <div className="flex items-center gap-6 lg:gap-10">
             {" "}
@@ -25,14 +25,14 @@ const Header = () => {
               <img className="w-24 sm:w-auto" src={logo} alt="logo" />
             </Link>
             <div
-              className={`flex gap-5 xl:gap-10 max-md:fixed top-0 max-md:h-screen max-md:w-screen max-md:items-center max-md:justify-center flex-col md:!flex-row bg-white md:bg-transparent duration-300 z-10 ${
+              className={`flex gap-4 xl:gap-10 max-md:fixed top-0 max-md:h-screen max-md:w-screen max-md:items-center max-md:justify-center flex-col md:!flex-row bg-white md:bg-transparent duration-300 z-10 ${
                 !toggleNav ? "-left-full" : "left-0"
               }`}
             >
               {headerData.map((tab, index) => (
                 <div key={index} onClick={() => setToggleNav(false)}>
                   <Link
-                    href={tab.path}
+                    to={tab.path}
                     className={`font-bold text-sm lg:text-[15px] capitalize flex items-center gap-6 justify-between duration-300 hover:text-[#00ADEF] ${
                       location.pathname === tab.path
                         ? "text-[#00ADEF]"
@@ -47,7 +47,7 @@ const Header = () => {
                 <CommonBtn
                   path="/register"
                   btnName="Sign in"
-                  btnStyling="font-bold text-[15px] text-[#1D1D1D] flex items-center "
+                  btnStyling="font-bold text-[15px] text-[#1D1D1D] flex items-center"
                 />
 
                 <CommonBtn

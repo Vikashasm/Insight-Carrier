@@ -6,6 +6,9 @@
 .ff_salesforce_ragular {
   font-family:'salesforce-normal';
 }
+body{
+  background-color: #611D69 !important;
+}
 
 @font-face {
   font-family:'salesforce-bold';
@@ -24,6 +27,3 @@
   font-family: 'salesforce-bold';
 }
 
-.bg_gradient_img{
-  background-image: url('/src/assets/images/png/homapage-img/page-bg-gradient.png');
-}
