@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bg_gradient_img': "url('/assets/images/png/homapage-img/page-bg-gradient.png')",
+      },
+    },
   },
   plugins: [],
 }
