@@ -78,3 +78,31 @@ export const testimonialData = [
     },
   
   ];
+export const pricingData = [
+    {
+     insight:"Insight",
+     stateInfo:"$99 per month for 1 state",
+     price:"$99",
+     month:"USD/mo",
+     btn:"for 6 state or more contact us for details."
+    },
+ 
+    {
+     insight:"Insight Business",
+     stateInfo:"$99 per month for 1 state",
+     price:"$99",
+     month:"USD/mo",
+     btn:"for 6 state or more contact us for details."
+    },
+ 
+    {
+     insight:"Insight Enterprise",
+     stateInfo:"for 6 state or more contact us for details.",
+     discount:"Yearly change it to 10% discount.",
+     price:"$99",
+     month:"USD/mo",
+     btn:"for 6 state or more contact us for details."
+    },
+ 
+  
+  ];

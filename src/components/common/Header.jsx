@@ -21,7 +21,7 @@ const Header = () => {
         >
           <div className="flex items-center gap-6 lg:gap-10">
             {" "}
-            <Link href="/">
+            <Link to="/">
               <img className="w-24 sm:w-auto" src={logo} alt="logo" />
             </Link>
             <div

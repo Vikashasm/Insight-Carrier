@@ -1,10 +1,13 @@
 import aboutHeroImg from '../assets/images/png/homapage-img/truck3.png'
 import AreYouReady from "../components/AreYouReady";
 import Footer from "../components/common/Footer";
+import Header from '../components/common/Header';
 
 const AboutPage = () => {
   return (
-    <div className="mt-10">
+    <div >
+     <Header/>
+
       {/* ABOUT US */}
       <section className="pb-6 md:py-12">
         <div className="container xl:max-w-[1280px] mx-auto px-5 z-[1] relative">

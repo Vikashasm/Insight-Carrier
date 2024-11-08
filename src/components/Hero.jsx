@@ -24,7 +24,7 @@ const Hero = () => {
     ],
   };
   return (
-    <div className="relative overflow-hidden pb-6 md:pb-12">
+    <div className="relative overflow-hidden pb-6 md:pb-12 mt-10">
       <img className="absolute top-[60%] z-0 w-full" src={bgGradientImg} alt="gradient-img" />
       <div className="container xl:max-w-[1280px] mx-auto px-5 z-[1] relative">
         <h1 className="ff_poppins font-semibold text-3xl md:text-5xl lg:text-[54px] text-[#611D69] text-center">

@@ -4,10 +4,13 @@ import { solutionData, testimonialData } from "../components/common/Helper";
 import profileImg from '../assets/images/png/homapage-img/profile-img.png'
 import AreYouReady from "../components/AreYouReady";
 import Footer from "../components/common/Footer";
+import Header from '../components/common/Header';
 
 const HomePage = () => {
   return (
-    <div className="mt-10">
+    <div>
+     <Header/>
+
       <Hero />
       {/* Insight Carrier Solutions */}
       <section className="py-6 md:py-12">
