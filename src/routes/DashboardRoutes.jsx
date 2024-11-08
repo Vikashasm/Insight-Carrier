@@ -16,3 +16,5 @@ function DashboardRoutes() {
 
 
 export default DashboardRoutes
+
+common

@@ -180,7 +180,7 @@ function MainPage() {
     </tr>
   </thead>
 
-  <tbody className="divide-y divide-[#E9F0F2] space-y-4">
+  <tbody className="divide-y divide-[#E9F0F2] space-y-4 overflow-x-scroll">
     {emaildata.map((row, index) => (
       <tr key={index} className="bg-white shadow-lg rounded-lg">
         <td className="px-[10px] ff_salesforce_regular py-[10px] ff_salesforce_ragular text-base whitespace-nowrap text-[#1D1D1D]">
