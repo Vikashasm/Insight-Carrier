@@ -6,7 +6,8 @@ function App() {
 
   return (
     <>
-     <Header/>
+     {/* <Header/> */}
+     <h2 className=' text-3xl text-white'>heading</h2>
     </>
   )
 }
