@@ -27,7 +27,7 @@ export default function Sidebar() {
               </li>
 
               <li>
-                <Link className="flex items-center gap-[6px] text-white text-[15px] font-normal">
+                <Link className="ff_salesforce_ragular flex items-center gap-[6px] text-white text-[15px] font-normal">
                   <PolicyRenewal />
                   Policy Renewal Leads
                 </Link>

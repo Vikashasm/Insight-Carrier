@@ -5,25 +5,18 @@ export const headerData = [
       path: "/",
     },
     {
-      tabs: "E-Learning",
-      path: "/e-learning",
+      tabs: "Solutions",
+      path: "/solution",
     },
     {
-      tabs: "For-Business",
-      path: "/business",
+      tabs: "Pricing",
+      path: "/pricing",
     },
     {
-      tabs: "Portfolio",
-      path: "/portfolio",
+      tabs: "About Us",
+      path: "/about-us",
     },
-    {
-      tabs: "Career",
-      path: "/career",
-    },
-    {
-      tabs: "Blogs",
-      path: "/our-blogs",
-    },
+
     {
       tabs: "Contact Us",
       path: "/contact-us",

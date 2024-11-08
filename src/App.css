@@ -3,10 +3,17 @@
 .ff_poppins {
   font-family: "Poppins", sans-serif;
 }
+.ff_salesforce_ragular {
+  font-family:'salesforce-normal';
+}
 
 @font-face {
-  font-family: salesforce-bold;
-  src: url("./assets/fonts//Salesforce\ Sans\ Bold.ttf");
+  font-family:'salesforce-bold';
+  src: url("./assets/fonts/SalesforceSans-Bold.ttf");
+}
+@font-face {
+  font-family:'salesforce-normal';
+  src: url("./assets/fonts/SalesforceSans-Regular.ttf");
 }
 
 * {
@@ -14,5 +21,9 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: salesforce-bold;
+  font-family: 'salesforce-bold';
+}
+
+.bg_gradient_img{
+  background-image: url('/src/assets/images/png/homapage-img/page-bg-gradient.png');
 }
