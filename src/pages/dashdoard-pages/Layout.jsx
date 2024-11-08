@@ -1,6 +1,6 @@
-import React from "react";
-import Navbar from "../common/Navbar";
-import Sidebar from "../common/Sidebar";
+
+import Navbar from "../../components/dashboard/Navbar";
+import Sidebar from "../../components/dashboard/Sidebar";
 import { Outlet } from "react-router-dom";
 
 function Layout() {

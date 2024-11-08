@@ -1,4 +1,4 @@
-import CommonBtn from "./common/CommonBtn";
+import CommonBtn from "../common/CommonBtn";
 
 const AreYouReady = () => {
   return (

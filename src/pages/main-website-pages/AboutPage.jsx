@@ -1,7 +1,7 @@
-import aboutHeroImg from '../assets/images/png/homapage-img/truck3.png'
-import AreYouReady from "../components/AreYouReady";
-import Footer from "../components/common/Footer";
-import Header from '../components/common/Header';
+import aboutHeroImg from '../../assets/images/png/homapage-img/truck3.png'
+import AreYouReady from "../../components/main-website/AreYouReady";
+import Footer from "../../components/common/Footer";
+import Header from '../../components/common/Header';
 
 const AboutPage = () => {
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+
 import {
   Cancellations,
   CompanySafety,
@@ -6,7 +6,7 @@ import {
   NewVenture,
   Notifications,
   PolicyRenewal,
-} from "./Icone";
+} from "../common/Icon";
 import { Link } from "react-router-dom";
 
 export default function Sidebar() {
@@ -16,7 +16,7 @@ export default function Sidebar() {
    
         <div className="flex flex-col h-full justify-between">
           <nav className="flex-col gap-[40px] ">
-            <Link className="flex items-center gap-[6px] text-white text-[15px] font-bold">
+            <Link  className="flex items-center gap-[6px] text-white text-[15px] font-bold">
               <Dashboard />
               Dashboard
             </Link>

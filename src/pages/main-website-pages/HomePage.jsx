@@ -1,11 +1,11 @@
 // import Hero from "../components/Hero";
-import { NextGoIcon } from "../components/common/Icon";
-import { solutionData, testimonialData } from "../components/common/Helper";
-import profileImg from '../assets/images/png/homapage-img/profile-img.png'
-import AreYouReady from "../components/AreYouReady";
-import Footer from "../components/common/Footer";
-import Header from '../components/common/Header';
-import Hero from "../components/Hero";
+import { NextGoIcon } from "../../components/common/Icon";
+import { solutionData, testimonialData } from "../../components/common/Helper";
+import profileImg from '../../assets/images/png/homapage-img/profile-img.png'
+import AreYouReady from "../../components/main-website/AreYouReady";
+import Footer from "../../components/common/Footer";
+import Header from '../../components/common/Header';
+import Hero from "../../components/main-website/Hero";
 
 const HomePage = () => {
   return (

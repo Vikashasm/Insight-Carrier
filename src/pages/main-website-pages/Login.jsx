@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import Footer from "../components/common/Footer";
-import logo from "../assets/images/svg/logo.svg";
-import { EmailIcon, LockIcon, UserIcon } from "../components/common/Icon";
+import Footer from "../../components/common/Footer";
+import logo from "../../assets/images/svg/logo.svg";
+import { EmailIcon, LockIcon } from "../../components/common/Icon";
 import { useState } from "react";
 
-const Register = () => {
-  const [errors, setErrors] = useState({});
+const Login = () => {
   const [formData, setFormData] = useState({
     username: "",
     email: "",
@@ -20,26 +19,9 @@ const Register = () => {
     });
   };
 
-  const validateForm = () => {
-    const newErrors = {};
-    if (!formData.username) newErrors.username = "Please fill in your user name";
-    if (!formData.email) newErrors.email = "Please fill in your email";
-    if (!formData.password) newErrors.password = "Please fill in your password";
-    if (!formData.confirmPassword)
-      newErrors.confirmPassword = "Please fill in your confirm password";
-    else if (formData.password !== formData.confirmPassword)
-      newErrors.confirmPassword = "Passwords do not match";
-    return newErrors;
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const validationErrors = validateForm();
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
-    } else {
-      // Clear errors and handle successful form submission
-      setErrors({});
       console.log("Form submitted:", formData);
       setFormData({
         username: "",
@@ -48,7 +30,7 @@ const Register = () => {
         confirmPassword: "",
       });
     }
-  };
+  
 
   return (
     <div>
@@ -70,49 +52,26 @@ const Register = () => {
 
           <div className="flex justify-center mt-3.5 pt-2 max-w-[460px] mx-auto">
             <form onSubmit={handleSubmit} className="w-full">
-              <div className="mt-5 md:mt-10">
-                <label
-                  htmlFor="username"
-                  className="ff_poppins font-semibold text-sm text-[#1D1D1D] uppercase"
-                >
-                  User name
-                </label>
-                <div className="flex gap-2.5 py-3.5 px-5 border border-[#D3D3D3] rounded ff_salesforce_ragular text-base outline-none items-center mt-2.5">
-                  <UserIcon />
-                  <input
-                    type="text"
-                    name="username"
-                    placeholder="User name"
-                    value={formData.username}
-                    onChange={handleChange}
-                    className="placeholder:text-[#1D1D1D] w-full text-[#1d1d1d] ff_salesforce_ragular text-base outline-none"
-                  />
-                </div>
-                {errors.username && (
-                  <p className="text-red-500 text-xs mt-1">{errors.username}</p>
-                )}
-              </div>
+             
               <div className="mt-5 md:mt-10">
                 <label
                   htmlFor="email"
                   className="ff_poppins font-semibold text-sm text-[#1D1D1D] uppercase"
                 >
-                  Email
+                Account
                 </label>
                 <div className="flex gap-2.5 py-3.5 px-5 border border-[#D3D3D3] rounded items-center mt-2.5">
                   <EmailIcon />
                   <input
                     type="email"
                     name="email"
-                    placeholder="Your email"
+                    placeholder="Email or user name"
                     value={formData.email}
                     onChange={handleChange}
                     className="placeholder:text-[#1D1D1D] w-full text-[#1d1d1d] ff_salesforce_ragular text-base outline-none"
                   />
                 </div>
-                {errors.email && (
-                  <p className="text-red-500 text-xs mt-1">{errors.email}</p>
-                )}
+                
               </div>
               <div className="mt-5 md:mt-10">
                 <label
@@ -132,44 +91,22 @@ const Register = () => {
                     className="placeholder:text-[#1D1D1D] w-full text-[#1d1d1d] ff_salesforce_ragular text-base outline-none"
                   />
                 </div>
-                {errors.password && (
-                  <p className="text-red-500 text-xs mt-1">{errors.password}</p>
-                )}
+               
               </div>
-              <div className="mt-5 md:mt-10">
-                <label
-                  htmlFor="confirmPassword"
-                  className="ff_poppins font-semibold text-sm text-[#1D1D1D] uppercase"
-                >
-                  Confirm Password
-                </label>
-                <div className="flex gap-2.5 py-3.5 px-5 border border-[#D3D3D3] rounded items-center mt-2.5">
-                  <LockIcon />
-                  <input
-                    type="password"
-                    name="confirmPassword"
-                    placeholder="Confirm Password"
-                    value={formData.confirmPassword}
-                    onChange={handleChange}
-                    className="ff_salesforce_ragular text-base outline-none placeholder:text-[#1D1D1D] w-full text-[#1d1d1d]"
-                  />
-                </div>
-                {errors.confirmPassword && (
-                  <p className="text-red-500 text-xs mt-1">{errors.confirmPassword}</p>
-                )}
-              </div>
+              <div className="flex justify-end"><Link className="ff_salesforce_ragular font-normal text-base text-black text-center mt-2.5">Forgot password?</Link></div>
+             
               <div className="mt-5 md:mt-10 mb-5">
                 <button
                   type="submit"
                   className="font-bold text-sm sm:text-[15px] text-white flex !py-3.5 sm:!px-10 gap-6 items-center bg-[#611D69] !uppercase rounded w-full justify-center"
                 >
-                  Register
+                  login
                 </button>
               </div>
               <p className="ff_salesforce_ragular font-normal text-base text-black text-center mt-4">
-                Already have an account?{" "}
-                <Link to={"/sign-in"} className="text-[#611D69] font-bold">
-                  Login
+              Don’t you have an account? 
+                <Link to={"/register"} className="text-[#611D69] font-bold">
+                Register
                 </Link>
               </p>
             </form>
@@ -183,4 +120,5 @@ const Register = () => {
   );
 };
 
-export default Register;
+
+export default Login

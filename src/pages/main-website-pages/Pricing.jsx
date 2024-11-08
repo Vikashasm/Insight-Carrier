@@ -1,9 +1,9 @@
-import AreYouReady from "../components/AreYouReady";
-import CommonBtn from "../components/common/CommonBtn";
-import Footer from "../components/common/Footer";
-import Header from "../components/common/Header";
-import { pricingData } from "../components/common/Helper";
-import ToggleSwitchBtn from "../components/ToggleSwitchBtn";
+import AreYouReady from "../../components/main-website/AreYouReady";
+import CommonBtn from "../../components/common/CommonBtn";
+import Footer from "../../components/common/Footer";
+import Header from "../../components/common/Header";
+import { pricingData } from "../../components/common/Helper";
+import ToggleSwitchBtn from "../../components/main-website/ToggleSwitchBtn";
 
 const Pricing = () => {
   return (

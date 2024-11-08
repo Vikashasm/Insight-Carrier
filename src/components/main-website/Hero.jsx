@@ -1,9 +1,9 @@
 import Slider from "react-slick";
-import CommonBtn from "./common/CommonBtn";
-import { SliderArrowIcon } from "./common/Icon";
+import CommonBtn from "../common/CommonBtn";
+import { SliderArrowIcon } from "../common/Icon";
 import { useRef } from "react";
-import img1 from "../assets/images/png/homapage-img/hero-slider-img1.png";
-import bgGradientImg from "../assets/images/png/homapage-img/page-bg-gradient.png";
+import img1 from "../../assets/images/png/homapage-img/hero-slider-img1.png";
+import bgGradientImg from "../../assets/images/png/homapage-img/page-bg-gradient.png";
 
 const Hero = () => {
   const sliderArrow = useRef();
