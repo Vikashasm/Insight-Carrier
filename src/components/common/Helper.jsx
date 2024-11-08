@@ -12,7 +12,7 @@ export const headerData = [
     },
     {
       tabs: "Solutions",
-      path: "/solution",
+      path: "/",
     },
     {
       tabs: "Pricing",
@@ -25,7 +25,7 @@ export const headerData = [
 
     {
       tabs: "Contact Us",
-      path: "/contact-us",
+      path: "/",
     },
   ];
 
