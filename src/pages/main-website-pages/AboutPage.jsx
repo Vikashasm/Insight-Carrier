@@ -9,7 +9,7 @@ const AboutPage = () => {
      <Header/>
 
       {/* ABOUT US */}
-      <section className="pb-6 md:py-12">
+      <section className="pb-6 md:py-12 mt-6">
         <div className="container xl:max-w-[1280px] mx-auto px-5 z-[1] relative">
           <h2 className="ff_poppins font-semibold text-3xl md:text-5xl lg:text-[54px] text-[#611D69] text-center">
             About Us
