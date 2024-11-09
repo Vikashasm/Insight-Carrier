@@ -3,6 +3,8 @@ import CommonBtn from "../common/CommonBtn";
 import { SliderArrowIcon, SliderNextArrowIcon } from "../common/Icon";
 import { useRef } from "react";
 import img1 from "../../assets/images/png/homapage-img/hero-slider-img1.png";
+import img2 from "../../assets/images/png/homapage-img/hero-slider-img2.png";
+import img3 from "../../assets/images/png/homapage-img/hero-slider-img3.png";
 import bgGradientImg from "../../assets/images/png/homapage-img/page-bg-gradient.png";
 
 const Hero = () => {
@@ -66,7 +68,10 @@ const Hero = () => {
               <img className="w-full px-2" src={img1} alt="slider-info" />
             </div>
             <div>
-              <img className="w-full px-2" src={img1} alt="slider-info" />
+              <img className="w-full px-2" src={img2} alt="slider-info" />
+            </div>
+            <div>
+              <img className="w-full px-2" src={img3} alt="slider-info" />
             </div>
           </Slider>
         </div>

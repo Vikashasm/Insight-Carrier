@@ -6,6 +6,15 @@ import { headerData } from "./Helper";
 
 const Footer = () => {
   const location = useLocation();
+
+
+  // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <section id="footer" className="py-6 md:py-12">
       <div className="container xl:max-w-[1280px] mx-auto px-5 z-[1] relative">
@@ -39,6 +48,7 @@ const Footer = () => {
                 <div key={index}>
                   <Link
                     to={tab.path}
+                    onClick={scrollToTop}
                     className={`font-bold text-sm lg:text-[15px] capitalize flex items-center gap-3 sm:gap-6 justify-between duration-300 hover:text-[#00ADEF] ${
                       location.pathname === tab.path
                         ? "text-[#00ADEF]"
