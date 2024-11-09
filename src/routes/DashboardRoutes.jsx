@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "../pages/dashdoard-pages/Layout";
-import MainPage from '../components/dashboard/MainPage';
-import  PolicyRenewal  from "../components/dashboard/PolicyRenewal";
-import NewVenture from "../components/dashboard/NewVenture";
-import MidTerm from "../components/dashboard/MidTerm";
-import CompanySafety from "../components/dashboard/CompanySafety";
+import MainPage from '../pages/dashdoard-pages/MainPage';
+import  PolicyRenewal  from "../pages/dashdoard-pages/PolicyRenewal";
+import NewVenture from "../pages/dashdoard-pages/NewVenture";
+import MidTerm from "../pages/dashdoard-pages/MidTerm";
+import CompanySafety from "../pages/dashdoard-pages/CompanySafety";
 
 function DashboardRoutes() {
   return (

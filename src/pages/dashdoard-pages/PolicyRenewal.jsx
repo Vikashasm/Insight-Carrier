@@ -1,5 +1,5 @@
 import React from "react";
-import Inputbar from "./Inputbar";
+import Inputbar from "../../components/dashboard/Inputbar";
 
 export default function PolicyRenewal() {
   return (

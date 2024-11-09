@@ -1,4 +1,4 @@
-import Inputbar from "./Inputbar";
+import Inputbar from "../../components/dashboard/Inputbar";
 
 function MainPage() {
   const data = [
