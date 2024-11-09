@@ -16,7 +16,7 @@ const AreYouReady = () => {
           <CommonBtn
             path="/"
             btnName="learn more"
-            btnStyling="font-bold text-sm sm:text-[15px] text-[#fff] !py-3.5 sm:!px-10 flex gap-6 items-center border border-[#fff] !uppercase  hover:text-white hover:bg-[#611D69] duration-300"
+            btnStyling="font-bold text-sm sm:text-[15px] text-[#fff] !py-3.5 sm:!px-10 flex gap-6 items-center border border-[#fff] !uppercase  hover:text-[#611D69] hover:bg-white duration-300"
           />
         </div>
       </div>

@@ -38,7 +38,7 @@ const Footer = () => {
               {headerData.map((tab, index) => (
                 <div key={index}>
                   <Link
-                    href={tab.path}
+                    to={tab.path}
                     className={`font-bold text-sm lg:text-[15px] capitalize flex items-center gap-3 sm:gap-6 justify-between duration-300 hover:text-[#00ADEF] ${
                       location.pathname === tab.path
                         ? "text-[#00ADEF]"
