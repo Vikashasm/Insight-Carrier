@@ -44,20 +44,7 @@ export default function NewVenture() {
                         <option>All</option>
                       </select>
                       <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-                        <svg
-                          className="w-4 h-4 text-[#1D1D1D]"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
+                      <DropdownIcon/>
                       </div>
                     </div>
                   </div>
@@ -72,20 +59,7 @@ export default function NewVenture() {
                         <option>All</option>
                       </select>
                       <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-                        <svg
-                          className="w-4 h-4 text-[#1D1D1D]"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
+                      <DropdownIcon/>
                       </div>
                     </div>
                   </div>
@@ -133,20 +107,7 @@ export default function NewVenture() {
                         <option>All</option>
                       </select>
                       <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-                        <svg
-                          className="w-4 h-4 text-[#1D1D1D]"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
+                      <DropdownIcon/>
                       </div>
                     </div>
                   </div>
@@ -161,20 +122,7 @@ export default function NewVenture() {
                         <option>All</option>
                       </select>
                       <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-                        <svg
-                          className="w-4 h-4 text-[#1D1D1D]"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
+                      <DropdownIcon/>
                       </div>
                     </div>
                   </div>
@@ -189,20 +137,7 @@ export default function NewVenture() {
                         <option>All</option>
                       </select>
                       <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-                        <svg
-                          className="w-4 h-4 text-[#1D1D1D]"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
+                      <DropdownIcon/>
                       </div>
                     </div>
                   </div>
@@ -227,20 +162,7 @@ export default function NewVenture() {
                         <option>Any</option>
                       </select>
                       <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-                        <svg
-                          className="w-4 h-4 text-[#1D1D1D]"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
+                      <DropdownIcon/>
                       </div>
                     </div>
                   </div>
@@ -255,20 +177,7 @@ export default function NewVenture() {
                         <option>Any</option>
                       </select>
                       <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-                        <svg
-                          className="w-4 h-4 text-[#1D1D1D]"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
+                      <DropdownIcon/>
                       </div>
                     </div>
                   </div>
@@ -282,20 +191,7 @@ export default function NewVenture() {
                         <option>Yes</option>
                       </select>
                       <div className="absolute inset-y-0 right-2 flex items-center pointer-events-none">
-                        <svg
-                          className="w-4 h-4 text-[#1D1D1D]"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
+                      <DropdownIcon/>
                       </div>
                     </div>
                   </div>

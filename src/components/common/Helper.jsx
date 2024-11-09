@@ -106,3 +106,50 @@ export const pricingData = [
  
   
   ];
+ export const data = [
+    {
+      userName: "Dianne Russell",
+      itemSearched: "Insurance Carrier Group",
+      date: "11/5/2024",
+    },
+    { userName: "Dianne Russell", itemSearched: "Renewal", date: "11/5/2024" },
+    {
+      userName: "Jane Cooper",
+      itemSearched: "Operating Authority",
+      date: "11/4/2024",
+    },
+    {
+      userName: "Darlene Robertson",
+      itemSearched: "Insurance",
+      date: "11/3/2024",
+    },
+    {
+      userName: "Jane Cooper",
+      itemSearched: "New Venture Leads",
+      date: "11/1/2024",
+    },
+  ];
+
+  export  const emaildata = [
+    {
+      email: "danghoang87hl@gmail.com",
+      name: "Dianne Russell",
+      status: "Invitation sent",
+    },
+    {
+      email: "igerrin@gmail.com",
+      name: "Jacob Jones",
+      status: "Invitation sent",
+    },
+    {
+      email: "tranthuy.nute@gmail.com",
+      name: "Jane Cooper",
+      status: "Accepted",
+    },
+    {
+      email: "trungkienspktnd@gamail.com",
+      name: "Darlene Robertson",
+      status: "Accepted",
+    },
+  ];
+ 

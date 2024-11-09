@@ -1,29 +1,9 @@
+import { data,emaildata } from "../../components/common/Helper";
+import { InputEmailIcon } from "../../components/common/Icon";
 import Inputbar from "../../components/dashboard/Inputbar";
 
 function MainPage() {
-  const data = [
-    {
-      userName: "Dianne Russell",
-      itemSearched: "Insurance Carrier Group",
-      date: "11/5/2024",
-    },
-    { userName: "Dianne Russell", itemSearched: "Renewal", date: "11/5/2024" },
-    {
-      userName: "Jane Cooper",
-      itemSearched: "Operating Authority",
-      date: "11/4/2024",
-    },
-    {
-      userName: "Darlene Robertson",
-      itemSearched: "Insurance",
-      date: "11/3/2024",
-    },
-    {
-      userName: "Jane Cooper",
-      itemSearched: "New Venture Leads",
-      date: "11/1/2024",
-    },
-  ];
+ 
   const emaildata = [
     {
       email: "danghoang87hl@gmail.com",
@@ -96,18 +76,7 @@ function MainPage() {
           <div className="flex items-center gap-5 lg:mb-0">
             <div className="border border-[rgb(211,211,211)] mt-4 rounded flex items-center py-[9px] px-[14px] gap-[10px]">
               <button>
-                <svg
-                  width="21"
-                  height="17"
-                  viewBox="0 0 21 17"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M2.00784 0.5C0.897255 0.5 0 1.39375 0 2.5V3.3125L9.73177 10.4938C9.81961 10.5563 9.92628 10.5938 10.0392 10.5938C10.1522 10.5938 10.2588 10.5563 10.3467 10.4938L20.0784 3.3125V2.5C20.0784 1.39375 19.1812 0.5 18.0706 0.5H2.00784ZM20.0784 5.8L11.5451 12.1C11.1122 12.4188 10.5851 12.5938 10.0392 12.5938C9.49333 12.5938 8.97255 12.4188 8.53333 12.1L0 5.8V14.5C0 15.6062 0.897255 16.5 2.00784 16.5H18.0706C19.1812 16.5 20.0784 15.6062 20.0784 14.5V5.8Z"
-                    fill="#611D69"
-                  />
-                </svg>
+               <InputEmailIcon/>
               </button>
 
               <input
@@ -125,7 +94,6 @@ function MainPage() {
           </button>
         </div>
 
-        {/* Email Table with w-full and Scroll */}
         <div className="overflow-x-auto w-full mt-10">
   <table className="min-w-full divide-y divide-gray-200">
     <thead className="bg-[#00ADEF0F] border-b border-[#00ADEF]">
@@ -145,9 +113,9 @@ function MainPage() {
         
       </tr>
     </thead>
-    <tbody className="divide-y divide-[#E9F0F2] space-y-4">
+    <tbody className="divide-y  space-y-4">
       {emaildata.map((row, index) => (
-        <tr key={index} className="bg-white shadow-card_shadow rounded-lg">
+        <tr key={index} className="bg-white rounded-lg">
           <td className="px-[10px] py-[10px] text-base whitespace-nowrap text-[#1D1D1D]">
             {row.email}
           </td>
