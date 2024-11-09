@@ -1,5 +1,6 @@
 import React from "react";
 import Inputbar from "../../components/dashboard/Inputbar";
+import { DropdownIcon } from "../../components/common/Icon";
 
 export default function PolicyRenewal() {
   return (
