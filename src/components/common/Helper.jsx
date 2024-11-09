@@ -25,7 +25,7 @@ export const headerData = [
 
     {
       tabs: "Contact Us",
-      path: "",
+      path: "/contact-us",
     },
   ];
 

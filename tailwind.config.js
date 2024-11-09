@@ -11,6 +11,7 @@ export default {
       },
       backgroundImage: {
         'bg_gradient_img': "url('/assets/images/png/homapage-img/page-bg-gradient.png')",
+        'contactUs_gradient': 'linear-gradient(180deg, #611D69 50%, #FFFFFF 40%)',
       },
     },
   },

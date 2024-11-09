@@ -4,6 +4,7 @@ import AboutPage from "../pages/main-website-pages/AboutPage"
 import Pricing from "../pages/main-website-pages/Pricing"
 import Register from "../pages/main-website-pages/Register"
 import Login from "../pages/main-website-pages/Login"
+import ContactUs from "../pages/main-website-pages/ContactUs"
 
 
 const MainRoutes = () => {
@@ -13,6 +14,7 @@ const MainRoutes = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about-us" element={<AboutPage />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/register" element={<Register />} />
         <Route path="/sign-in" element={<Login />} />
         </Routes>

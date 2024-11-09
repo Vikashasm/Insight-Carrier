@@ -106,9 +106,9 @@ const Login = () => {
                 </button>
               </div>
               <p className="ff_salesforce_ragular font-normal text-base text-black text-center mt-4">
-              Don’t you have an account? 
+              Don’t you have an account?  
                 <Link to={"/register"} className="text-[#611D69] font-bold">
-                Register
+                 Register
                 </Link>
               </p>
             </form>
