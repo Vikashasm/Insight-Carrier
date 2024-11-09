@@ -7,13 +7,25 @@ export default function PolicyRenewal() {
       <h1 className="text-2xl font-bold">Policy Renewal Leads</h1>
       <div className="flex  justify-between flex-wrap  -mx-3 mt-[30px]">
         <div className="w-full lg:w-7/12 xl:w-6/12 px-3">
-          <div className="px-4  pt-4 pb-9  shadow-lg rounded h-full">
+          <div className="px-4  pt-4 pb-9  shadow-card_shadow rounded h-full">
             <p className="text-lg font-semibold text-[#611D69]">Carrier</p>
             <form className="mt-5">
               <div className="flex  justify-between -mx-3">
                 <div className="w-6/12 px-3">
                   <div>
-                    <label className="text-sm font-semibold ff_poppins">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
+                    Docket #
+                    </label>
+                    <div className="border border-[#D3D3D3] px-[10px] py-[7px] rounded mt-[6px]">
+                      <input
+                        className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none "
+                        type="text"
+                        placeholder="type..."
+                      />
+                    </div>
+                  </div>
+                  <div className="mt-[18px]">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
                       Docket # (MC)
                     </label>
                     <div className="border border-[#D3D3D3] px-[10px] py-[7px] rounded mt-[6px]">
@@ -25,19 +37,7 @@ export default function PolicyRenewal() {
                     </div>
                   </div>
                   <div className="mt-[18px]">
-                    <label className="text-sm font-semibold ff_poppins">
-                      Docket # (MC)
-                    </label>
-                    <div className="border border-[#D3D3D3] px-[10px] py-[7px] rounded mt-[6px]">
-                      <input
-                        className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none "
-                        type="text"
-                        placeholder="type..."
-                      />
-                    </div>
-                  </div>
-                  <div className="mt-[18px]">
-                    <label className="text-sm font-semibold ff_poppins">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
                       Operating Authority
                     </label>
                     <div className="border border-[#D3D3D3] rounded  py-[7px] w-full relative mt-[6px]">
@@ -65,7 +65,7 @@ export default function PolicyRenewal() {
                     </div>
                   </div>
                   <div className="mt-[18px]">
-                    <label className="text-sm font-semibold ff_poppins">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
                       Carrier operation
                     </label>
                     <div className="border border-[#D3D3D3] rounded  py-[7px] w-full relative mt-[6px]">
@@ -93,7 +93,7 @@ export default function PolicyRenewal() {
                     </div>
                   </div>
                   <div className="mt-[18px]">
-                    <label className="text-sm font-semibold ff_poppins">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
                       Hazmat flag
                     </label>
                     <div className="border border-[#D3D3D3] rounded  py-[7px] w-full relative mt-[6px]">
@@ -123,18 +123,18 @@ export default function PolicyRenewal() {
                 </div>
                 <div className="w-6/12 px-3">
                   <div>
-                    <label className="text-sm font-semibold ff_poppins">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
                       Years in Business
                     </label>
                     <div className="flex items-center gap-2 justify-between">
-                      <div className="border border-[#D3D3D3] w-[120px] px-[10px]  py-[7px] rounded mt-[6px]">
+                      <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                         <input
                           className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                           type="number"
                           placeholder="Min"
                         />
                       </div>
-                      <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[120px]  rounded mt-[6px]">
+                      <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                         <input
                           className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                           type="number"
@@ -144,7 +144,7 @@ export default function PolicyRenewal() {
                     </div>
                   </div>
                   <div className="mt-[18px]">
-                    <label className="text-sm font-semibold ff_poppins">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
                       Has email
                     </label>
                     <div className="border border-[#D3D3D3] rounded  py-[7px] w-full relative mt-[6px]">
@@ -173,18 +173,18 @@ export default function PolicyRenewal() {
                   </div>
 
                   <div className="mt-[18px]">
-                    <label className="text-sm font-semibold ff_poppins">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
                       Power units
                     </label>
                     <div className="flex items-center gap-2 justify-between">
-                      <div className="border border-[#D3D3D3] w-[120px] px-[10px]  py-[7px] rounded mt-[6px]">
+                      <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                         <input
                           className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                           type="number"
                           placeholder="Min"
                         />
                       </div>
-                      <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[120px]  rounded mt-[6px]">
+                      <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                         <input
                           className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                           type="number"
@@ -194,18 +194,18 @@ export default function PolicyRenewal() {
                     </div>
                   </div>
                   <div className="mt-[18px]">
-                    <label className="text-sm font-semibold ff_poppins">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
                       Drivers
                     </label>
                     <div className="flex items-center gap-2 justify-between">
-                      <div className="border border-[#D3D3D3] w-[120px] px-[10px]  py-[7px] rounded mt-[6px]">
+                      <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                         <input
                           className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                           type="number"
                           placeholder="Min"
                         />
                       </div>
-                      <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[120px]  rounded mt-[6px]">
+                      <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                         <input
                           className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                           type="number"
@@ -215,7 +215,7 @@ export default function PolicyRenewal() {
                     </div>
                   </div>
                   <div className="mt-[18px]">
-                    <label className="text-sm font-semibold ff_poppins">
+                    <label className="text-sm font-semibold ff_poppins uppercase">
                       Classification
                     </label>
                     <div className="border border-[#D3D3D3] rounded  py-[7px] w-full relative mt-[6px]">
@@ -248,21 +248,21 @@ export default function PolicyRenewal() {
           </div>
         </div>
         <div className="w-6/12 mt-5 lg:mt-0 lg:w-5/12 xl:w-3/12 px-3">
-          <div className="px-4  pt-4 pb-9 shadow-lg rounded h-full">
+          <div className="px-4  pt-4 pb-9 shadow-card_shadow rounded h-full">
             <p className="text-lg font-semibold text-[#611D69]">Insurance</p>
             <div className="mt-5">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 Required BIPD
               </label>
               <div className="flex items-center gap-2 justify-between">
-                <div className="border border-[#D3D3D3] w-[112px] px-[10px]  py-[7px] rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                     type="number"
                     placeholder="Min"
                   />
                 </div>
-                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[112px]  rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                     type="number"
@@ -272,7 +272,7 @@ export default function PolicyRenewal() {
               </div>
             </div>
             <div className="mt-[18px]">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 Insurance TYPE
               </label>
               <div className="border border-[#D3D3D3] rounded  py-[7px] w-full relative mt-[6px]">
@@ -300,18 +300,18 @@ export default function PolicyRenewal() {
               </div>
             </div>
             <div className="mt-[18px]">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 Renewal Date
               </label>
               <div className="flex items-center gap-2 justify-between">
-                <div className="border border-[#D3D3D3] w-[112px] px-[10px]  py-[7px] rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                     type="number"
                     placeholder="Min"
                   />
                 </div>
-                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[112px]  rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                     type="number"
@@ -321,7 +321,7 @@ export default function PolicyRenewal() {
               </div>
             </div>
             <div className="mt-[18px]">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 Insurance Carrier Group
               </label>
               <div className="border border-[#D3D3D3] rounded  py-[7px] w-full relative mt-[6px]">
@@ -350,22 +350,22 @@ export default function PolicyRenewal() {
             </div>
           </div>
         </div>
-        <div className="w-6/12 mt-5 mx-auto lg:w-5/12 xl:w-3/12 xl:mt-0 px-3">
-          <div className="px-4  pt-4 pb-9 shadow-lg rounded h-full">
+        <div className="w-6/12 mt-5 mx-auto lg:w-6/12 xl:w-3/12 xl:mt-0 px-3">
+          <div className="px-4  pt-4 pb-9 shadow-card_shadow  rounded h-full">
             <p className="text-lg font-semibold text-[#611D69]">Safety</p>
             <div className="mt-5">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 OOS violations
               </label>
               <div className="flex items-center gap-2 justify-between">
-                <div className="border border-[#D3D3D3] w-[112px] px-[10px]  py-[7px] rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                     type="number"
                     placeholder="Min"
                   />
                 </div>
-                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[112px]  rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                     type="number"
@@ -375,18 +375,18 @@ export default function PolicyRenewal() {
               </div>
             </div>
             <div className="mt-[18px]">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 Crashes
               </label>
               <div className="flex items-center gap-2 justify-between">
-                <div className="border border-[#D3D3D3] w-[112px] px-[10px]  py-[7px] rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                     type="number"
                     placeholder="Min"
                   />
                 </div>
-                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[112px]  rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                     type="number"
@@ -396,18 +396,18 @@ export default function PolicyRenewal() {
               </div>
             </div>
             <div className="mt-[18px]">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 Injuries
               </label>
               <div className="flex items-center gap-2 justify-between">
-                <div className="border border-[#D3D3D3] w-[112px] px-[10px]  py-[7px] rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                     type="number"
                     placeholder="Min"
                   />
                 </div>
-                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[112px]  rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                     type="number"
@@ -417,18 +417,18 @@ export default function PolicyRenewal() {
               </div>
             </div>
             <div className="mt-[18px]">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 Fatalities
               </label>
-              <div className="flex items-center gap-2 justify-between">
-                <div className="border border-[#D3D3D3] w-[112px] px-[10px]  py-[7px] rounded mt-[6px]">
+              <div className="flex items-center gap-2 justify-between ">
+                <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                     type="number"
                     placeholder="Min"
                   />
                 </div>
-                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[112px]  rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                     type="number"
@@ -438,18 +438,18 @@ export default function PolicyRenewal() {
               </div>
             </div>
             <div className="mt-[18px]">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 Towaway
               </label>
               <div className="flex items-center gap-2 justify-between">
-                <div className="border border-[#D3D3D3] w-[112px] px-[10px]  py-[7px] rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                     type="number"
                     placeholder="Min"
                   />
                 </div>
-                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[112px]  rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                     type="number"
@@ -459,18 +459,18 @@ export default function PolicyRenewal() {
               </div>
             </div>
             <div className="mt-[18px]">
-              <label className="text-sm font-semibold ff_poppins">
+              <label className="text-sm font-semibold ff_poppins uppercase">
                 Inspections
               </label>
               <div className="flex items-center gap-2 justify-between">
-                <div className="border border-[#D3D3D3] w-[112px] px-[10px]  py-[7px] rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] w-full px-[10px]  py-[7px] rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
                     type="number"
                     placeholder="Min"
                   />
                 </div>
-                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-[112px]  rounded mt-[6px]">
+                <div className="border border-[#D3D3D3] px-[10px] py-[7px] w-full  rounded mt-[6px]">
                   <input
                     className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full"
                     type="number"

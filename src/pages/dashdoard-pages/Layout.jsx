@@ -24,7 +24,7 @@ function Layout() {
           </div>
         )}
 
-        <div className="bg-white overflow-auto rounded-l-[4px] pt-10 pb-[100px] px-5 lg:px-10 w-full">
+        <div className="bg-white overflow-auto rounded-l-[40px] shadow-2xl pt-10 pb-[100px] px-5 lg:px-10 w-full">
         
           <Outlet/>
         </div>
