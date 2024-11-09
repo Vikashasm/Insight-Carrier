@@ -79,7 +79,7 @@ export default function Sidebar({ setOpen }) {
         <div  onClick={() => setOpen(false)}>
         <Link
           onClick={() => setOpen(false)}
-          to="/dashboard/Notifications"
+          to="/dashboard/Notification"
           className="flex items-center gap-[6px] text-white text-xs ff_salesforce_ragular lg:text-[15px] font-normal"
         >
           <Notifications />

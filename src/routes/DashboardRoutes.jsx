@@ -5,6 +5,7 @@ import  PolicyRenewal  from "../pages/dashdoard-pages/PolicyRenewal";
 import NewVenture from "../pages/dashdoard-pages/NewVenture";
 import MidTerm from "../pages/dashdoard-pages/MidTerm";
 import CompanySafety from "../pages/dashdoard-pages/CompanySafety";
+import Notification from "../pages/dashdoard-pages/Notification";
 
 function DashboardRoutes() {
   return (
@@ -16,6 +17,7 @@ function DashboardRoutes() {
           <Route path="/dashboard/NewVenture" element={<NewVenture/>} />
           <Route path="/dashboard/MidTerm" element={<MidTerm/>} />
           <Route path="/dashboard/CompanySafety" element={<CompanySafety/>} />
+          <Route path="/dashboard/Notification" element={<Notification/>} />
         </Route>
       </Routes>
     </>
