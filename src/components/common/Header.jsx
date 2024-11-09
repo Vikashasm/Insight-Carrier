@@ -92,7 +92,7 @@ const Header = () => {
                 /> <button onClick={() => setIsSearchVisible(false)} className="h-12 bg-[#611D69] text-sm text-white px-5 rounded">search</button>
                 </div>
            
-              <span onClick={() => setIsSearchVisible(!isSearchVisible)}>
+              <span onClick={() => setIsSearchVisible(!isSearchVisible)} className="cursor-pointer">
                 <SearchIcon isContactPage={isContactPage} />
               </span>
               <CommonBtn
