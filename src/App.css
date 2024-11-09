@@ -29,3 +29,10 @@
   overflow: hidden !important;
   border-radius: 8px !important;
 }
+
+#footer span svg:hover path {
+  fill:#00ADEF;
+}
+#footer  svg path {
+  transition: all 0.3s ease;
+}

@@ -90,7 +90,7 @@ const Header = () => {
               <CommonBtn
                 path="/register"
                 btnName="start now"
-                btnStyling={`font-bold text-[15px] flex gap-6 items-center bg-[#611D69] max-[400px]:hidden ${
+                btnStyling={`font-bold text-[15px] flex gap-6 items-center bg-[#611D69] max-[400px]:hidden !uppercase ${
                   isContactPage ? "text-[#611D69] bg-white" : "bg-[#611D69] !text-white"
                 }`}
               />

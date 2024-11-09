@@ -7,7 +7,7 @@ import { headerData } from "./Helper";
 const Footer = () => {
   const location = useLocation();
   return (
-    <section className="py-6 md:py-12">
+    <section id="footer" className="py-6 md:py-12">
       <div className="container xl:max-w-[1280px] mx-auto px-5 z-[1] relative">
         <div className="flex items-center justify-between">
           <Link href="/">

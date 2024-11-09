@@ -151,7 +151,7 @@ const ContactUs = () => {
                       Message
                     </label>
                     <div className="flex gap-2.5 py-3.5 px-5 border border-[#D3D3D3] rounded mt-2.5">
-                      <MessageIcon />
+                      <span className="mt-1"><MessageIcon /></span>
                       <textarea
                         name="message"
                         placeholder="Type message..."
