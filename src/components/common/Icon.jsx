@@ -100,6 +100,79 @@ export const SliderArrowIcon = () => {
     </svg>
   );
 };
+export const SliderNextArrowIcon = () => {
+  return (
+    <svg
+      width="32"
+      height="48"
+      viewBox="0 0 32 48"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_dd_100_1884)">
+        <path
+          d="M25.2715 20.2344C26.248 21.2109 26.248 22.7969 25.2715 23.7734L10.2715 38.7734C9.29492 39.75 7.70898 39.75 6.73242 38.7734C5.75586 37.7969 5.75586 36.2109 6.73242 35.2344L19.9668 22L6.74023 8.76562C5.76367 7.78906 5.76367 6.20312 6.74023 5.22656C7.7168 4.25 9.30273 4.25 10.2793 5.22656L25.2793 20.2266L25.2715 20.2344Z"
+          fill="#611D69"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_dd_100_1884"
+          x="0"
+          y="0.494141"
+          width="32.0039"
+          height="47.0117"
+          filterUnits="userSpaceOnUse"
+          colorInterpolationFilters="sRGB"
+        >
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="2" />
+          <feGaussianBlur stdDeviation="3" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0.380392 0 0 0 0 0.113725 0 0 0 0 0.411765 0 0 0 0.16 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_100_1884"
+          />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="4" />
+          <feGaussianBlur stdDeviation="1" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0.678431 0 0 0 0 0.937255 0 0 0 0.1 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="effect1_dropShadow_100_1884"
+            result="effect2_dropShadow_100_1884"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect2_dropShadow_100_1884"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+};
 export const NextGoIcon = () => {
   return (
     <svg

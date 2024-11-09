@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import CommonBtn from "../common/CommonBtn";
-import { SliderArrowIcon } from "../common/Icon";
+import { SliderArrowIcon, SliderNextArrowIcon } from "../common/Icon";
 import { useRef } from "react";
 import img1 from "../../assets/images/png/homapage-img/hero-slider-img1.png";
 import bgGradientImg from "../../assets/images/png/homapage-img/page-bg-gradient.png";
@@ -51,15 +51,15 @@ const Hero = () => {
         <div className="w-full sm:w-8/12 mx-auto mt-6 lg:mt-20 relative ">
           <span
             onClick={() => sliderArrow.current.slickPrev()}
-            className="absolute top-1/2 -translate-y-1/2 -left-10 hidden sm:block"
+            className="absolute top-1/2 -translate-y-1/2 -left-10 hidden sm:block cursor-pointer"
           >
             <SliderArrowIcon />
           </span>
           <span
             onClick={() => sliderArrow.current.slickNext()}
-            className="absolute top-1/2 -translate-y-1/2 -right-10 hidden sm:block -scale-110"
+            className="absolute top-1/2 -translate-y-1/2 -right-10 hidden sm:block cursor-pointer"
           >
-            <SliderArrowIcon />
+            <SliderNextArrowIcon />
           </span>
           <Slider ref={sliderArrow} {...settings} >
             <div>
