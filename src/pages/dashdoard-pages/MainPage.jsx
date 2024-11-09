@@ -113,7 +113,7 @@ function MainPage() {
               <input
                 className="placeholder:text-[#1D1D1D] placeholder:opacity-[60%] ff_salesforce_ragular font-normal outline-none"
                 type="email"
-                placeholder="Team member email"
+                placeholder="Enter Team member email"
               />
             </div>
             <button className="text-sm  font-bold uppercase text-white mt-4 bg-[#611D69] px-4 py-3 rounded">
