@@ -59,9 +59,9 @@ const AreYouReady = () => {
   return (
     <section className="my-6 md:my-12 py-12 sm:py-14 lg:py-20 bg-[#611D69]">
       <div className="container xl:max-w-[1280px] mx-auto px-5 z-[1] relative">
-        <h2 className="font-semibold ff_poppins text-2xl md:text-3xl lg:text-4xl text-white h-[108px] min-[510px]:h-[84px]">A{animatedTextReady}
+        <h2 className="font-semibold ff_poppins text-2xl md:text-3xl lg:text-4xl text-white h-[108px] min-[510px]:h-[84px] text-center">A{animatedTextReady}
         <span className="block pt-3">{animatedSpanText}</span></h2>
-       <div className="flex mt-6 lg:mt-12 items-center gap-1.5 sm:gap-2.5 ">
+       <div className="flex mt-6 lg:mt-12 items-center justify-center gap-1.5 sm:gap-2.5 ">
           <CommonBtn
             path="/"
             btnName="Subscribe now "

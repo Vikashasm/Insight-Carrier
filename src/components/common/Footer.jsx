@@ -36,7 +36,7 @@ const Footer = () => {
           </span>
         </div>
         <div className="flex flex-wrap items-end w-full lg:justify-between mt-[30px]">
-          <p className="flex items-center justify-center lg:justify-start gap-2 ff_salesforce_ragular font-normal text-xs sm:text-base lg:text-lg text-[#1D1D1D] w-full lg:w-auto">
+          <p className="flex items-center justify-center lg:justify-start gap-2 ff_salesforce_ragular font-normal text-xs sm:text-base lg:text-lg text-[#1D1D1D]">
             <EmailIcon />
             For inquiries, reach out at [support@insightcarrier.com]
           </p>
