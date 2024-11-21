@@ -377,12 +377,24 @@ export default function MidTerm() {
                 </div>
                 <div  className="mt-[18px]">
                   <label className="text-sm font-semibold ff_poppins uppercase">
-                    email 
+                   power units
                   </label>
                   <div className="border w-full border-[#D3D3D3]  px-[10px]  py-[7px] rounded mt-[6px]">
                     <input
                       className="placeholder:text-[#1D1D1D] opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
-                      type="email"
+                      type="text"
+                      placeholder="type..."
+                    />
+                  </div>
+                </div>
+                <div  className="mt-[18px]">
+                  <label className="text-sm font-semibold ff_poppins uppercase">
+                   total drivers
+                  </label>
+                  <div className="border w-full border-[#D3D3D3]  px-[10px]  py-[7px] rounded mt-[6px]">
+                    <input
+                      className="placeholder:text-[#1D1D1D] opacity-[60%] ff_salesforce_ragular font-normal outline-none w-full "
+                      type="text"
                       placeholder="type..."
                     />
                   </div>
