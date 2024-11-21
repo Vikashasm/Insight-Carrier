@@ -14,7 +14,7 @@ const Pricing = () => {
         <div className="container xl:max-w-[1280px] mx-auto px-5 z-[1] relative">
           <h1 className="ff_poppins font-semibold text-3xl md:text-5xl lg:text-[54px] text-[#611D69] text-center">
             Trucking <span className="text-[#00ADEF]"> Insurance Leads </span>{" "}
-            Pricing.
+            Pricing
           </h1>
           <p className="ff_salesforce_ragular font-normal text-base xl:text-lg text-[#1D1D1D] text-center mt-4">
             Select monthly or yearly payment plans

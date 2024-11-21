@@ -1,7 +1,6 @@
 // import Hero from "../components/Hero";
 import { NextGoIcon } from "../../components/common/Icon";
 import { solutionData, testimonialData } from "../../components/common/Helper";
-import profileImg from '../../assets/images/png/homapage-img/profile-img.png'
 import AreYouReady from "../../components/main-website/AreYouReady";
 import Footer from "../../components/common/Footer";
 import Header from '../../components/common/Header';
@@ -33,7 +32,7 @@ const HomePage = () => {
                     </p>
                   </div>{" "}
                   <div className="mt-5">
-                    <button className="flex justify-between items-center w-full uppercase">
+                    <button className="flex justify-between items-center w-full uppercase border-none outline-none">
                       learn more <NextGoIcon />
                     </button>
                   </div>
@@ -59,7 +58,7 @@ const HomePage = () => {
                   {items.about}
                   </p>
                   <div className="flex gap-3 items-center mt-4 lg:mt-[30px]">
-                    <img className="w-[60px] h-[60px]" src={profileImg} alt="profile-logo" />
+                    <img className="w-[60px] h-[60px]" src={items.profileImg} alt="profile-logo" />
                     <div>
                       <h2 className="text-xl lg:text-2xl text-black">
                         {items.name}

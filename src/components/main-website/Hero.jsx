@@ -30,7 +30,7 @@ const Hero = () => {
       <img className="absolute top-[60%] z-0 w-full" src={bgGradientImg} alt="gradient-img" />
       <div className="container xl:max-w-[1280px] mx-auto px-5 z-[1] relative">
         <h1 className="ff_poppins font-semibold text-3xl md:text-5xl lg:text-[54px] text-[#611D69] text-center">
-          Insight. <span className="text-[#00ADEF]">Leads.</span> Growth.
+          Insight <span className="text-[#00ADEF]">Leads</span> Growth
         </h1>
         <div className="flex justify-center mt-4 lg:mt-6 items-center gap-1.5 sm:gap-2.5 ">
           <CommonBtn

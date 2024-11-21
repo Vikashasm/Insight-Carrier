@@ -1,4 +1,4 @@
-import { data,emaildata } from "../../components/common/Helper";
+import { data } from "../../components/common/Helper";
 import { InputEmailIcon } from "../../components/common/Icon";
 import Inputbar from "../../components/dashboard/Inputbar";
 

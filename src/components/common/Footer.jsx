@@ -4,9 +4,10 @@ import logo from "../../assets/images/svg/logo.svg";
 import { EmailIcon, FbIcon, InstaIcon, LinkdinIcon } from "./Icon";
 import { headerData } from "./Helper";
 
+
 const Footer = () => {
   const location = useLocation();
-
+ 
 
   // Scroll to top function
   const scrollToTop = () => {
@@ -34,8 +35,8 @@ const Footer = () => {
             </a>
           </span>
         </div>
-        <div className="flex flex-wrap items-end lg:justify-between mt-[30px]">
-          <p className="flex items-center gap-2 ff_salesforce_ragular font-normal text-xs sm:text-base lg:text-lg text-[#1D1D1D]">
+        <div className="flex flex-wrap items-end w-full lg:justify-between mt-[30px]">
+          <p className="flex items-center justify-center lg:justify-start gap-2 ff_salesforce_ragular font-normal text-xs sm:text-base lg:text-lg text-[#1D1D1D] w-full lg:w-auto">
             <EmailIcon />
             For inquiries, reach out at [support@insightcarrier.com]
           </p>
